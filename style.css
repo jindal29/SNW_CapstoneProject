@@ -1,0 +1,341 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-style: Roboto Serif;
+}
+.navbar {
+    padding: 1vw 0;
+    margin: 0 3vw;
+}
+.syne-navdiv {
+    font-family: Roboto Serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    text-decoration: none;
+    font-size: 2.625vw;
+    font-weight: 800;
+    color: black;
+}
+.nav-links{
+    display: flex;
+}
+.nav-links li{
+    list-style-type: none;
+}
+li{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.75vw;
+    margin-right: 1.875vw;
+}
+.main-content {
+    padding: 3vw;
+}
+.hero-section {
+    padding: 6vw 0;
+}
+.syne-header-text {
+    font-family: Roboto Serif;
+    font-size: 7.5vw;
+    font-weight: 900;
+    text-align: center;
+    color: black;
+    line-height: 7.5vw;
+}
+
+.main-image img{
+    border-radius: 3.5vw;
+    border: 0.0625vw solid black;
+    margin-top: 3.5vw;
+    margin-bottom: 4vw
+}
+.familjen-grotesk {
+    font-family: Roboto Serif;
+}
+
+.project-img img{
+    border: 0.0625vw solid black;
+    border-radius: 1.5vw;
+
+}
+.text1 {
+    font-size: 1.25vw;
+    font-weight: 400;
+    line-height: 1.5vw;
+    color: black;
+    margin-top: 0.3125vw;
+}
+.text2 {
+    font-size: 1.0625vw;
+    font-weight: 400;
+    line-height: 1.5vw;
+    color: gray;
+    margin-top: -1.25vw;
+}
+.row {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+.project-img{
+    width: 31%;
+}
+.project-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.clientss{
+    text-align: center;
+    font-family: Roboto Serif;
+    font-size: 60px;
+    font-weight: 750;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    margin-bottom: 39px;
+}
+  .cards-container {
+    display: flex;
+    width: 100vw;
+    overflow:scroll;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #f8ebeb;
+    border-radius: 12px;
+    padding: 20px;
+    width: 380px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .profile-info .name {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .profile-info .name strong {
+    font-weight: bold;
+  }
+  
+  .profile-info .role {
+    font-size: 0.9rem;
+    color: #7c7c7c;
+  }
+  
+  .feedback {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.5;
+    border-left: 3px solid #d6c6c6;
+    padding-left: 12px;
+  }
+.def{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.abc{
+    gap: 2.75rem;
+    background-color: #fff9f9;
+    padding: 11rem 3.5rem;
+    @media only screen and (max-width:1050px){
+        padding: 1.25rem;
+    }
+}
+.pqrst{
+    gap: 1rem;
+    display: flex;
+    width: auto;
+    padding: 0.75rem;
+} 
+.hj{
+    color: #fff9f9;
+    padding-left: 2.13rem;
+    padding-right: 2.13rem;
+    font-size: 0.94rem;
+    background-color: #ff0000 !important;
+    height: 2.75rem;
+    min-width: 25rem;
+    border-radius: 16px !important;
+    @media only screen and (max-width:550px){
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}
+.ij1{
+    color: #ff0000 !important;
+    font-weight: 500 !important;
+}
+.xy{
+    display: flex;
+    justify-content: center;
+    @media only screen and (max-width:1050px){
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}
+.fcc{
+    margin-bottom: 0.25rem;
+    letter-spacing: 0rem;
+    font-family: Roboto Serif !important;
+}
+.fl{
+    color: #271a1a !important;
+    margin-top: 3.75rem;
+    padding-left: 2rem;
+    padding-right: 1.25rem;
+    font-size: 1.25rem;
+    height: 3.5rem;
+    min-width: 10.5rem;
+    border-radius: 16px !important;
+    border: 1.5px solid #6e494933 !important;
+}
+
+
+.ghi{
+    margin-top: 1.25rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media only screen and (max-width:1050px){
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}
+.otp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: text;
+    height: 4rem;
+    width: 3.5rem;
+    color: #2e131366;
+    background-color: #7e242416;
+    letter-spacing: 0rem;
+    text-align: center;
+    border-radius: 16px;
+}
+.g45{
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+}
+.mnop{
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+    background-color: #fff9f9;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 1.25rem;
+    @media only screen and (max-width:550px){
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+    }
+}
+.f45.classy{
+    font-size: 1.75rem;
+    font-weight: 400;
+    @media only screen and (max-width:1050px){
+        font-size: 1.63rem;
+    }
+    @media only screen and (max-width:550px){
+        font-size: 1.5rem;
+    }
+}
+.f45.ts{
+    font-size: 0.94rem;
+    font-weight: 400;
+}
+.f45{
+    color: #2e13139e;
+    font-family: Public Sans;
+}
+.uij.hiii.hiiixs{
+    font-size: 0.94rem;
+    font-weight: 700;
+}
+.cntct{
+    font-size: 1.75rem;
+    font-weight: 700;
+    @media only screen and (max-width:1050px){
+        font-size: 1.63rem;
+    }
+    @media only screen and (max-width:550px){
+        font-size: 1.5rem;
+    }
+}
+.uij.hiii{
+    color: #271a1a;
+    font-family: Public Sans;
+}
+.container-xs{
+    max-width: 84rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 25px;
+    background-color: white;
+}
+
+.footer-text {
+    color: black;
+    font-size: 34px;
+    margin: 0;
+}
+
+.follow-button {
+    background-color: transparent;
+    color: black;
+    border: 1px solid #6b4b4b;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.follow-button:hover {
+    background-color: #f6a864;
+    color: black;
+}
+
+.main-image{
+    width: 100%;
+}
+
