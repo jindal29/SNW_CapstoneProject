@@ -135,7 +135,7 @@ li{
     color: #333;
   }
   
-  .profile-info .name strong {
+  .profile-info .name  {
     font-weight: bold;
   }
   
