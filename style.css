@@ -15,7 +15,6 @@ body {
     justify-content: space-between;
 }
 .logo{
-    text-decoration: none;
     font-size: 2.625vw;
     font-weight: 800;
     color: black;
@@ -27,7 +26,6 @@ body {
     list-style-type: none;
 }
 li{
-    text-decoration: none;
     color: black;
     font-weight: 500;
     font-size: 1.75vw;
@@ -178,18 +176,18 @@ li{
     padding-left: 2.13rem;
     padding-right: 2.13rem;
     font-size: 0.94rem;
-    background-color: #ff0000 !important;
+    background-color: #ff0000;
     height: 2.75rem;
     min-width: 25rem;
-    border-radius: 16px !important;
+    border-radius: 16px;
     @media only screen and (max-width:550px){
         padding-left: 1.25rem;
         padding-right: 1.25rem;
     }
 }
 .ij1{
-    color: #ff0000 !important;
-    font-weight: 500 !important;
+    color: #ff0000 ;
+    font-weight: 500;
 }
 .xy{
     display: flex;
@@ -202,18 +200,18 @@ li{
 .fcc{
     margin-bottom: 0.25rem;
     letter-spacing: 0rem;
-    font-family: Roboto Serif !important;
+    font-family: Roboto Serif;
 }
 .fl{
-    color: #271a1a !important;
+    color: #271a1a;
     margin-top: 3.75rem;
     padding-left: 2rem;
     padding-right: 1.25rem;
     font-size: 1.25rem;
     height: 3.5rem;
     min-width: 10.5rem;
-    border-radius: 16px !important;
-    border: 1.5px solid #6e494933 !important;
+    border-radius: 16px;
+    border: 1.5px solid #6e494933;
 }
 
 
@@ -244,7 +242,6 @@ li{
     border-radius: 16px;
 }
 .g45{
-    align-self: stretch;
     display: flex;
     justify-content: center;
 }
